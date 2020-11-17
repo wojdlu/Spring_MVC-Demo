@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:form="http://www.w3.org/1999/html">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form for Students</title>
+</head>
+<body>
+    <form:form action="processForm" modelAttribute="student">
+        First name: <input type="text" path="firstName"/><br>
+        Last name: <input type="text" path="lastName"/><br>
+        <input type="submit" value="submit!"/>
+    </form:form>
+</body>
+</html>
